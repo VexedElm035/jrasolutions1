@@ -27,7 +27,6 @@ function App() {
         dispatch(setUserDetails(dataApi.data))
       }
   }
-
   const fetchUserAddToCart = async()=>{
     const dataResponse = await fetch(SummaryApi.addToCartProductCount.url,{
       method : SummaryApi.addToCartProductCount.method,
