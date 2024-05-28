@@ -1,81 +1,81 @@
-const backendDomin = "https://jrasolutions-api.vercel.app/"
+const backendDomin = "http://localhost:8080"
 
 const SummaryApi = {
     signUP : {
         url : `${backendDomin}/api/signup`,
-        method : "POST"
+        method : "post"
     },
     signIn : {
         url : `${backendDomin}/api/signin`,
-        method : "POST"
+        method : "post"
     },
     current_user : {
         url : `${backendDomin}/api/user-details`,
-        method : "GET"
+        method : "get"
     },
     logout_user : {
         url : `${backendDomin}/api/userLogout`,
-        method : 'GET'
+        method : 'get'
     },
     allUser : {
         url : `${backendDomin}/api/all-user`,
-        method : 'GET'
+        method : 'get'
     },
     updateUser : {
         url : `${backendDomin}/api/update-user`,
-        method : "POST"
+        method : "post"
     },
     uploadProduct : {
         url : `${backendDomin}/api/upload-product`,
-        method : 'POST'
+        method : 'post'
     },
     allProduct : {
         url : `${backendDomin}/api/get-product`,
-        method : 'GET'
+        method : 'get'
     },
     updateProduct : {
         url : `${backendDomin}/api/update-product`,
-        method  : 'POST'
+        method  : 'post'
     },
     categoryProduct : {
         url : `${backendDomin}/api/get-categoryProduct`,
-        method : 'GET'
+        method : 'get'
     },
     categoryWiseProduct : {
         url : `${backendDomin}/api/category-product`,
-        method : 'POST'
+        method : 'post'
     },
     productDetails : {
         url : `${backendDomin}/api/product-details`,
-        method : 'POST'
+        method : 'post'
     },
     addToCartProduct : {
         url : `${backendDomin}/api/addtocart`,
-        method : 'POST'
+        method : 'post'
     },
     addToCartProductCount : {
         url : `${backendDomin}/api/countAddToCartProduct`,
-        method : 'GET'
+        method : 'get'
     },
     addToCartProductView : {
         url : `${backendDomin}/api/view-card-product`,
-        method : 'GET'
+        method : 'get'
     },
     updateCartProduct : {
         url : `${backendDomin}/api/update-cart-product`,
-        method : 'POST'
+        method : 'post'
     },
     deleteCartProduct : {
         url : `${backendDomin}/api/delete-cart-product`,
-        method : 'POST'
+        method : 'post'
     },
     searchProduct : {
         url : `${backendDomin}/api/search`,
-        method : 'GET'
+        method : 'get'
     },
     filterProduct : {
         url : `${backendDomin}/api/filter-product`,
-        method : 'POST'
+        method : 'post'
     }
 }
 

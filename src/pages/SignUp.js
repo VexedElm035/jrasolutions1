@@ -101,8 +101,8 @@ const SignUp = () => {
                               <div className='bg-slate-100 p-2'>
                                   <input 
                                       type='text' 
-                                      placeholder='Ingrese su nombre' 
-                                      name='name...'
+                                      placeholder='Ingrese su nombre...' 
+                                      name='name'
                                       value={data.name}
                                       onChange={handleOnChange}
                                       required
