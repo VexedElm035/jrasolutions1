@@ -1,4 +1,4 @@
-const backendDomin = "https://jrasolutions-api.onrender.com"
+const backendDomin = "https://jrasolutions-api.vercel.app/"
 
 const SummaryApi = {
     signUP : {
